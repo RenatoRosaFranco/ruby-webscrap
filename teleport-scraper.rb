@@ -44,10 +44,10 @@ Organization = Struct.new(
       status,
       visibility,
       {
-        website: nil,
+        website:   nil,
         instagram: nil,
-        facebook: nil,
-        twitter: nil
+        facebook:  nil,
+        twitter:   nil
       }.merge(social_media)
     )
   end
